@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EjemploJavaFxSum_Rest_Multi_Div.jnlp">
+  <information>
+    <title>EjemploJavaFxSum_Rest_Multi_Div</title>
+    <vendor>Usuario</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EjemploJavaFxSum_Rest_Multi_Div.jar" size="4830" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="ejemplojavafxsum_rest_multi_div.EjemploJavaFxSum_Rest_Multi_Div"  name="EjemploJavaFxSum_Rest_Multi_Div" />
+  <update check="always"/>
+</jnlp>

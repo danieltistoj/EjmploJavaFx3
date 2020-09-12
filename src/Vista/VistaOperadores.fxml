@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="322.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.OperadoresControlador">
+   <children>
+      <TextField fx:id="txtOperadorUno" layoutX="127.0" layoutY="52.0" />
+      <TextField fx:id="txtOperadorDos" layoutX="127.0" layoutY="105.0" />
+      <ButtonBar layoutX="119.0" layoutY="153.0" prefHeight="40.0" prefWidth="158.0">
+        <buttons>
+          <Button fx:id="botonOperar" mnemonicParsing="false" onAction="#HacerOperacion" prefHeight="26.0" prefWidth="154.0" text="Operar" />
+        </buttons>
+      </ButtonBar>
+      <RadioButton fx:id="radioSuma" layoutX="97.0" layoutY="215.0" mnemonicParsing="false" text="Suma" />
+      <RadioButton fx:id="radioMulti" layoutX="98.0" layoutY="248.0" mnemonicParsing="false" text="Multiplicacion" />
+      <RadioButton fx:id="radioResta" layoutX="209.0" layoutY="215.0" mnemonicParsing="false" text="Resta" />
+      <RadioButton fx:id="radioDivision" layoutX="210.0" layoutY="248.0" mnemonicParsing="false" text="Division" />
+      <TextField fx:id="txtResp" editable="false" layoutX="135.0" layoutY="301.0" prefHeight="26.0" prefWidth="149.0" />
+      <Label layoutX="37.0" layoutY="56.0" text="Operador 1" />
+      <Label layoutX="37.0" layoutY="109.0" text="Operador 2" />
+      <Label layoutX="53.0" layoutY="306.0" text="Respuesta" />
+   </children>
+</AnchorPane>
